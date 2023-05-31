@@ -1,0 +1,20 @@
+ .location-wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 50px;
+    gap: 17px;
+}
+
+.location-wrapper input {
+    width: 109px;
+    border: 0px;
+    background-color: #EAEAEA;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+

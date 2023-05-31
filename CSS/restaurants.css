@@ -1,0 +1,119 @@
+.restaurant-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 45px;
+    padding-bottom: 66px;
+    gap: 21px;
+    background-color: #f3F3F3;
+}
+
+.restaurant-wrapper h1 {
+    margin-right: 170px;
+}
+
+
+.restaurant-wrapper p {
+    font-size: 14px;
+}
+
+.restaurant-wrapper ul {
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+            align-items: center;
+    gap: 18px;
+    width: 96%;}
+
+.restaurant-wrapper li {
+    position: relative;
+    max-width: 340px;
+    width: 100%;
+    height: 251px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 29px;
+    background-color: #99E2D0;
+    top: 5%;
+    left: 70%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #008766;
+    border-radius: 2px;
+}
+
+
+.restaurant-image {
+    border-radius: 15px 15px 0 0;
+width: 100%;
+    height: 174px;
+    object-fit: cover ;
+    object-position: 100% 100%;
+}
+
+.center {
+    object-position: 100% 63%;
+}
+
+.description-restaurant {
+    position: relative;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding: 16px 25px 12px 13px;
+    padding-left: 13px;
+    padding-right: 25px;
+    display: flex;
+    gap: 13px;
+
+}
+
+.description-restaurant h2 {
+    height: 20px;
+    width: 267px;
+    margin-bottom: 5px;
+}
+.description-restaurant p {
+    height: 24px;
+    width: 247px;
+}
+
+@media screen and (min-width:720px) {
+    .restaurant-wrapper h1 {
+        margin-right: 300px;
+    }
+    .restaurant-wrapper ul {
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    .restaurant-wrapper li {
+        width: 50%;
+        max-width: 490px;
+    }
+    .center {
+        object-position: 100% 60%;
+    }
+}
+
+@media screen and (min-width:1042px) {
+    .restaurant-wrapper ul {
+        gap: 20px;
+    }
+    .restaurant-wrapper h1 {
+        margin-right: 800px;
+    }
+}
+
+
+
+
