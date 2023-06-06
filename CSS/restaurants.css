@@ -11,8 +11,8 @@
     background-color: #f3F3F3;
 }
 
-.restaurant-wrapper h1 {
-    margin-right: 170px;
+.restaurant-wrapper h4 {
+    margin-right: 190px;
 }
 
 
@@ -89,15 +89,14 @@ width: 100%;
 }
 
 @media screen and (min-width:720px) {
-    .restaurant-wrapper h1 {
-        margin-right: 300px;
+    .restaurant-wrapper h4 {
+        margin-right: 350px;
     }
     .restaurant-wrapper ul {
         flex-direction: row;
         flex-wrap:wrap;
     }
     .restaurant-wrapper li {
-        width: 50%;
         max-width: 490px;
     }
     .center {
@@ -105,12 +104,12 @@ width: 100%;
     }
 }
 
-@media screen and (min-width:1042px) {
+@media screen and (min-width:1040px) {
     .restaurant-wrapper ul {
         gap: 20px;
     }
-    .restaurant-wrapper h1 {
-        margin-right: 800px;
+    .restaurant-wrapper h4 {
+        margin-right: 860px;
     }
 }
 

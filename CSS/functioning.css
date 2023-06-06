@@ -13,8 +13,9 @@
     background-color: white;
 }
 
-.functioning-wrapper h1 {
+.functioning-wrapper h4 {
     margin-left: 20px;
+    margin-right: 160px;
 }
 
 
@@ -75,9 +76,8 @@ max-width: 325px;
         flex-direction: row;
         justify-content: center;
     }    
-    .functioning-wrapper h1 {
+    .functioning-wrapper h4 {
         margin-left: 0;
         margin-right: 800px;
     }
-
 }

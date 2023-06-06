@@ -32,7 +32,7 @@
     bottom: 45%;
     opacity: 0;
     position: absolute;
-    font-size: 23px;
+    font-size: 1.44rem;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,12 +44,12 @@
     position: absolute;
     width: 22px;
     height: 21px;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .full-heart-menu:hover {
     opacity: 1;
-    scale: 1.2;
+    transform : scale(1.2);
     transition: 0.2s ease;
 }
 
@@ -62,7 +62,7 @@
     gap: 12px;
     border-radius: 40px 40px 0 0; 
 }
-.restaurant-title h3 {
+.restaurant-title h1 {
     height: 27px;
     margin-top: 31px;
 }
@@ -76,11 +76,12 @@
     margin-top: 40px;
 }
 
-.restaurant-title h3 {
+.restaurant-title h1 {
     font-family: 'Shrikhand', cursive;
-        font-size: 28px;
-        font-weight: 400;
-        padding-bottom: 42px ;
+    font-size: 1.75rem;
+    font-weight: 400;
+    padding-bottom: 42px ;
+    text-transform: none;
 }
 
 .menu-list {
@@ -105,12 +106,6 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-}
-
-.menu-wrapper h2 {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 300;
 }
 
 .green-line {
@@ -182,12 +177,13 @@
 }
 
 .meal-box h4 {
-    font-size: 0.9rem ;
+    font-size: 0.875rem ;
     font-weight: 700;
 }
 
 .meal-box h2 {
-    font-size: 1.1rem;
+    height: 1.2rem;
+    font-size: 1.125rem;
     font-weight: 700;
     text-transform: none;
     text-overflow: ellipsis;
@@ -198,23 +194,22 @@
 
 
 .meal-box p {
-    font-size: 0.9rem;
+    height: 1rem;
+    font-size: 0.875rem;
     font-weight: 300;
-        text-overflow: ellipsis;
-    text-transform: none;
+    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 
 
-.meal-box:hover {
-    .meal-box-price-check {
-        margin-right: 0rem;
-        transition: 0.5s;
-    }
-    .meal-box-description {
-        width: 65%;
-    }
+.meal-box:hover .meal-box-price-check {
+    margin-right: 0;
+    transition: 0.5s;
+}
+
+.meal-box:hover .meal-box-description {
+    width: 65%;
 }
 
 .menu-button {
@@ -231,3 +226,57 @@
     height: 50px;
 }
 
+.animation1 {
+    animation: apparition1 1s linear;
+    opacity: 0;
+        animation-fill-mode: forwards;
+}
+
+@keyframes apparition1 {
+    from {
+        opacity: 0;
+        margin-right: 50%;
+    }
+
+    to {
+        opacity: 1;
+        margin-right: 0%;
+    }
+}
+
+.animation2 {
+    animation: apparition2 1s linear 0.5s;
+    opacity: 0;
+        animation-fill-mode: forwards;
+
+}
+
+@keyframes apparition2 {
+    from {
+        opacity: 0;
+        margin-left: 50%;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 0%;
+    }
+}
+
+.animation3 {
+    animation: apparition3 1s linear 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes apparition3 {
+    from {
+        opacity: 0;
+        margin-right: 50%;
+    }
+    to {
+        opacity: 1;
+        margin-right: 0%;
+    }
+}

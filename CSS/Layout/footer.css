@@ -11,11 +11,15 @@
     margin: 0 auto;
 }
 .footer h3 {
+    text-transform: lowercase;
     padding-left: 25px ;
     height: 27px ;
     font-family: 'Shrikhand', cursive;
-    font-size: 18px ;
+    font-size: 1.125rem ;
     font-weight: 400;
+    color: white;
+}
+.footer a {
     color: white;
 }
 
