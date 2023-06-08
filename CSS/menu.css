@@ -1,282 +1,272 @@
 .restaurant-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1440px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .presentation-section {
-    max-width: 1055px;
-    width: 100%;
-    display: flex;
-    position: absolute;
-    top: 290px;
-
+  max-width: 1055px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 290px;
 }
 
 .restaurant-section img {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    max-width: 1440px;
-    height: 275px;
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  max-width: 1440px;
+  height: 275px;
 }
 
-
 .full-heart-menu {
-    bottom: 45%;
-    opacity: 0;
-    position: absolute;
-    font-size: 1.44rem;
-    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  width: 22px;
+  height: 21px;
+  bottom: 45%;
+  opacity: 0;
+  position: absolute;
+  font-size: 1.375rem;
+  background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .empty-heart-menu {
-    bottom: 45%;
-    opacity: 1;
-    position: absolute;
-    width: 22px;
-    height: 21px;
-    font-size: 1.375rem;
+  bottom: 45%;
+  opacity: 1;
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  font-size: 1.375rem;
 }
 
 .full-heart-menu:hover {
-    opacity: 1;
-    transform : scale(1.2);
-    transition: 0.2s ease;
+  opacity: 1;
+  transform: scale(1.05);
+  transition: 0.2s ease;
 }
 
 .restaurant-title {
-    width: 100%;
-    max-width: 1055px;
-    background-color: #f3F3F3;
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    border-radius: 40px 40px 0 0; 
+  width: 100%;
+  background-color: #f3f3f3;
+  padding-left: 17px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  border-radius: 40px 40px 0 0;
 }
-.restaurant-title h1 {
-    height: 27px;
-    margin-top: 31px;
+
+@media screen and (min-width: 635px) {
+  .restaurant-title {
+    justify-content: center;
+    gap: 27px;
+  }
 }
 
 .menu-wrapper {
-    width: 100%;
-    max-width: 1055px ;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
+  width: 100%;
+  max-width: 1055px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
 }
 
 .restaurant-title h1 {
-    font-family: 'Shrikhand', cursive;
-    font-size: 1.75rem;
-    font-weight: 400;
-    padding-bottom: 42px ;
-    text-transform: none;
+  font-family: "Shrikhand", cursive;
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding-bottom: 42px;
+  text-transform: none;
+  height: 27px;
+  margin-top: 31px;
 }
 
 .menu-list {
-    background-color: #f3F3F3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
-
-
 .meal-list {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    max-width:635px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 635px;
 }
 
 .dish-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .green-line {
-    border: solid 3px #99E2D0;
-    width: 40px;
-    margin-top: 7px;
-    margin-bottom: 12px;
+  border: solid 1.5px #99e2d0;
+  width: 40px;
+  margin-top: 7px;
+  margin-bottom: 12px;
 }
 
 .meal-box {
-    overflow: hidden;
-    border-radius: 15px;
-    background-color: white;
-    width: 100%;
-    height: 69px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .meal-box-description {
-    width: 85%;
-    display: flex;
-    padding-left: 15px ;
-    flex-direction: column;
-    gap: 7px;
+  width: 85%;
+  display: flex;
+  padding-left: 15px;
+  flex-direction: column;
+  gap: 7px;
 }
 
 .meal-box-price-check {
-    display: flex;
-        margin-right: -3.5rem;
-    height: 100%;
-
+  display: flex;
+  margin-right: -3.5rem;
+  height: 100%;
 }
 
 .check {
-    background-color: #99E2D0;
-    height: 100%;
-    width: 3.5rem;
-    border-radius: 0 15px 15px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  background-color: #99e2d0;
+  height: 100%;
+  width: 3.5rem;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .check-circle {
-    background-color: white;
-    border-radius: 50px;
-    height: 19px;
-    width: 19px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  height: 19px;
+  width: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .check i {
-    font-size: 1rem ;
+  font-size: 1rem;
 }
 
 .price {
-    display: flex;
-    align-items: center;
-    padding-right: 15px;
-    padding-top: 15px;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  padding-top: 15px;
 }
 
-.meal-box h4 {
-    font-size: 0.875rem ;
-    font-weight: 700;
+.meal-box h3 {
+  height: 1.2rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
-
-.meal-box h2 {
-    height: 1.2rem;
-    font-size: 1.125rem;
-    font-weight: 700;
-    text-transform: none;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-
 
 .meal-box p {
-    height: 1rem;
-    font-size: 0.875rem;
-    font-weight: 300;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+  height: 1rem;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-
 .meal-box:hover .meal-box-price-check {
-    margin-right: 0;
-    transition: 0.5s;
+  margin-right: 0;
+  transition: 0.5s;
 }
 
 .meal-box:hover .meal-box-description {
-    width: 65%;
+  width: 65%;
 }
 
 .menu-button {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    max-width: 1055px;
-    width: 100%;
-    background-color: #f3F3F3;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 1055px;
+  width: 100%;
+  background-color: #f3f3f3;
 }
 
 .menu-button button {
-    width: 186px;
-    height: 50px;
+  width: 186px;
+  height: 50px;
 }
 
 .animation1 {
-    animation: apparition1 1s linear;
-    opacity: 0;
-        animation-fill-mode: forwards;
+  animation: apparition1 1s linear;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 @keyframes apparition1 {
-    from {
-        opacity: 0;
-        margin-right: 50%;
-    }
+  from {
+    opacity: 0;
+    margin-right: 50%;
+  }
 
-    to {
-        opacity: 1;
-        margin-right: 0%;
-    }
+  to {
+    opacity: 1;
+    margin-right: 0%;
+  }
 }
 
 .animation2 {
-    animation: apparition2 1s linear 0.5s;
-    opacity: 0;
-        animation-fill-mode: forwards;
-
+  animation: apparition2 1s linear 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 @keyframes apparition2 {
-    from {
-        opacity: 0;
-        margin-left: 50%;
-    }
+  from {
+    opacity: 0;
+    margin-left: 50%;
+  }
 
-    to {
-        opacity: 1;
-        margin-left: 0%;
-    }
+  to {
+    opacity: 1;
+    margin-left: 0%;
+  }
 }
 
 .animation3 {
-    animation: apparition3 1s linear 1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-
+  animation: apparition3 1s linear 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 @keyframes apparition3 {
-    from {
-        opacity: 0;
-        margin-right: 50%;
-    }
-    to {
-        opacity: 1;
-        margin-right: 0%;
-    }
+  from {
+    opacity: 0;
+    margin-right: 50%;
+  }
+  to {
+    opacity: 1;
+    margin-right: 0%;
+  }
 }

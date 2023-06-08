@@ -1,118 +1,117 @@
 .restaurant-wrapper {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1440px;
-    padding-top: 45px;
-    padding-bottom: 66px;
-    gap: 21px;
-    background-color: #f3F3F3;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  padding-top: 45px;
+  padding-bottom: 66px;
+  gap: 21px;
+  background-color: #f7f7f7;
 }
 
-.restaurant-wrapper h4 {
-    margin-right: 190px;
+.restaurant-wrapper h2 {
+  margin-right: 190px;
 }
-
 
 .restaurant-wrapper p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .restaurant-wrapper ul {
-    display: flex;
-    flex-direction: column;
-        justify-content: center;
-            align-items: center;
-    gap: 18px;
-    width: 96%;}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  width: 96%;
+}
 
 .restaurant-wrapper li {
-    position: relative;
-    max-width: 340px;
-    width: 100%;
-    height: 251px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-width: 340px;
+  width: 100%;
+  height: 251px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .new {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 80px;
-    height: 29px;
-    background-color: #99E2D0;
-    top: 5%;
-    left: 70%;
-    font-size: 14px;
-    font-weight: 500;
-    color: #008766;
-    border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  background-color: #99e2d0;
+  top: 5%;
+  left: 70%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #008766;
+  border-radius: 2px;
 }
 
-
 .restaurant-image {
-    border-radius: 15px 15px 0 0;
-width: 100%;
-    height: 174px;
-    object-fit: cover ;
-    object-position: 100% 100%;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 174px;
+  object-fit: cover;
+  object-position: 100% 100%;
 }
 
 .center {
-    object-position: 100% 63%;
+  object-position: 100% 63%;
 }
 
 .description-restaurant {
-    position: relative;
-    justify-content: space-between;
-    padding-top: 16px;
-    padding: 16px 25px 12px 13px;
-    padding-left: 13px;
-    padding-right: 25px;
-    display: flex;
-    gap: 13px;
-
+  position: relative;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding: 16px 25px 12px 13px;
+  padding-left: 13px;
+  padding-right: 25px;
+  display: flex;
+  gap: 13px;
 }
 
-.description-restaurant h2 {
-    height: 20px;
-    width: 267px;
-    margin-bottom: 5px;
+.description-restaurant h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  height: 20px;
+  width: 267px;
+  margin-bottom: 5px;
 }
 .description-restaurant p {
-    height: 24px;
-    width: 247px;
+  height: 24px;
+  width: 247px;
 }
 
-@media screen and (min-width:720px) {
-    .restaurant-wrapper h4 {
-        margin-right: 350px;
-    }
-    .restaurant-wrapper ul {
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
-    .restaurant-wrapper li {
-        max-width: 490px;
-    }
-    .center {
-        object-position: 100% 60%;
-    }
+@media screen and (min-width: 720px) {
+  .restaurant-wrapper h2 {
+    margin-right: 350px;
+  }
+  .restaurant-wrapper ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .restaurant-wrapper li {
+    max-width: 490px;
+  }
+  .center {
+    object-position: 100% 60%;
+  }
+  .new {
+    left: 80%;
+  }
 }
 
-@media screen and (min-width:1040px) {
-    .restaurant-wrapper ul {
-        gap: 20px;
-    }
-    .restaurant-wrapper h4 {
-        margin-right: 860px;
-    }
+@media screen and (min-width: 1040px) {
+  .restaurant-wrapper ul {
+    gap: 20px;
+  }
+  .restaurant-wrapper h2 {
+    margin-right: 860px;
+  }
 }
-
-
-
-
