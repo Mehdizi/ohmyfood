@@ -37,6 +37,8 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Animation heart menu hover */
+
 .empty-heart-menu {
   bottom: 45%;
   opacity: 1;
@@ -51,6 +53,8 @@
   transform: scale(1.05);
   transition: 0.2s ease;
 }
+
+/* Animation heart menu hover */
 
 .restaurant-title {
   width: 100%;
@@ -132,7 +136,7 @@
 }
 
 .meal-box-description {
-  width: 85%;
+  width: 83%;
   display: flex;
   padding-left: 15px;
   flex-direction: column;
@@ -147,7 +151,6 @@
 
 .check {
   background-color: #99e2d0;
-  height: 100%;
   width: 3.5rem;
   border-radius: 0 15px 15px 0;
   display: flex;
@@ -195,14 +198,18 @@
   overflow: hidden;
 }
 
+/* Animation meal selected */
+
 .meal-box:hover .meal-box-price-check {
   margin-right: 0;
   transition: 0.5s;
 }
 
 .meal-box:hover .meal-box-description {
-  width: 65%;
+  width: 60%;
 }
+
+/* Animation meal selected */
 
 .menu-button {
   display: flex;
@@ -218,13 +225,15 @@
   height: 50px;
 }
 
-.animation1 {
-  animation: apparition1 1s linear;
+/* Animation menu meal appear */
+
+.animation-starters {
+  animation: starters 1s linear;
   opacity: 0;
   animation-fill-mode: forwards;
 }
 
-@keyframes apparition1 {
+@keyframes starters {
   from {
     opacity: 0;
     margin-right: 50%;
@@ -236,13 +245,13 @@
   }
 }
 
-.animation2 {
-  animation: apparition2 1s linear 0.5s;
+.animation-dishes {
+  animation: dishes 1s linear 0.5s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
 
-@keyframes apparition2 {
+@keyframes dishes {
   from {
     opacity: 0;
     margin-left: 50%;
@@ -254,13 +263,13 @@
   }
 }
 
-.animation3 {
-  animation: apparition3 1s linear 1s;
+.animation-desserts {
+  animation: desserts 1s linear 1s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
 
-@keyframes apparition3 {
+@keyframes desserts {
   from {
     opacity: 0;
     margin-right: 50%;
@@ -270,3 +279,5 @@
     margin-right: 0%;
   }
 }
+
+/* animation menu meal appear */

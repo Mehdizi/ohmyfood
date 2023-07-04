@@ -6,6 +6,7 @@ h1,
 h2,
 h3,
 h4,
+h6,
 ul,
 p,
 form,
@@ -24,14 +25,13 @@ h4,
 h3,
 h6,
 form,
+span,
 input {
   font-size: 1rem;
   font-weight: 500;
 }
 
-h {
-  font-size: 1rem;
-  font-weight: 300;
+.meal-list h2 {
   text-transform: uppercase;
 }
 
@@ -175,6 +175,8 @@ a {
   height: 22px;
 }
 
+/* Animation heart index */
+
 .full-heart {
   opacity: 0;
   bottom: 48%;
@@ -202,6 +204,10 @@ a {
   transition: 0.2s ease;
 }
 
+/* Animation heart hover index */
+
+/* Animation button hover*/
+
 button {
   text-align: center;
   color: white;
@@ -216,6 +222,7 @@ button {
 }
 
 button:hover {
+  transition: 1s;
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.15),
@@ -224,3 +231,5 @@ button:hover {
     linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
 }
+
+/* Animation button */
